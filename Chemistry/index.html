@@ -1,0 +1,723 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <!-- font awesome 5 free -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- Poppins font from Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- flexslider -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Chemistry</title>
+    <link rel="icon" href="assets/imgs/lab2.jpg"> </head>
+
+<body>
+
+    <!--Offer Alert ================================ -->
+
+    <!--Hero ====================================== -->
+    <header class=" hero container-fluid ">
+        <nav class="hero-nav container px-4 px-lg-0 mx-auto ">
+            <ul class="nav w-100 list-unstyled align-items-center p-0 ">
+                <li style="color:white " class="hero-nav__item ">
+                    <i class="fas fa-atom text-light "></i> Chemistry
+                </li>
+                <li id="hero-menu " class="flex-grow-1 hero__nav-list hero__nav-list--mobile-menu ft-menu ">
+                    <ul class="hero__menu-content nav flex-column flex-lg-row ft-menu__slider animated list-unstyled p-2 p-lg-0 ">
+                        <li class="flex-grow-1 ">
+                            <ul class="nav nav--lg-side list-unstyled align-items-center p-0 ">
+                                <li class="hero-nav__item ">
+                                    <a class="hero-nav__link dropdown-toggle " href="# " id="dropdown-a " data-toggle="dropdown "> <i class="fas fa-globe-asia "></i> Languages
+                                    </a>
+                                    <div class="dropdown-menu " aria-labelledby="dropdown-a ">
+                                        <a class="dropdown-item " href="reservation.html ">Reservation</a>
+                                        <a class="dropdown-item " href="stuff.html ">Stuff</a>
+                                        <a class="dropdown-item " href="gallery.html ">Gallery</a>
+                                    </div>
+                                </li>
+
+                                <li class="hero-nav__item ">
+                                    <a href="#contact-us " class="hero-nav__link ">Contact Us</a>
+                                </li>
+                                <li class="hero-nav__item ">
+                                    <a href="#faq " class="hero-nav__link ">News</a>
+                                </li>
+                                <li class="hero-nav__item ">
+                                    <a href="#pricing " class="hero-nav__link ">Our partner</a>
+                                </li>
+                                <li class="hero-nav__item ">
+                                    <a href="#testimonials " class="hero-nav__link ">Life Familly</a>
+                                </li>
+                                <li class="hero-nav__item ">
+                                    <a href="#features " class="hero-nav__link ">About Us</a>
+                                </li>
+                                <li class="hero-nav__item ">
+                                    <a href="#product " class="hero-nav__link ">Main</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <button onclick="document.querySelector( '#hero-menu').classList.toggle( 'ft-menu--js-show') " class="ft-menu__close-btn animated ">
+                        <svg class="bi bi-x " width="1em " height="1em " viewBox="0 0 16 16 " fill="currentColor "
+                            xmlns="http://www.w3.org/2000/svg ">
+                            <path fill-rule="evenodd "
+                                d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z "
+                                clip-rule="evenodd " />
+                            <path fill-rule="evenodd "
+                                d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z "
+                                clip-rule="evenodd " />
+                        </svg>
+                    </button>
+                </li>
+                <li class="d-lg-none flex-grow-1 d-flex flex-row-reverse hero-nav__item ">
+                    <button onclick="document.querySelector( '#hero-menu').classList.toggle( 'ft-menu--js-show') " class="text-center px-2 ">
+                        <i class="fas fa-bars "></i>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="product " class="hero__content container mx-auto ">
+            <div class="row px-0 mx-0 align-items-start ">
+                <div class="col-lg-6 px-0 ">
+                    <div class="row ">
+                        <div style="position: relative; top:2pc " class="row ">
+                            <img class="mt-5 ml-3 " style="position: absolute; border-radius: 1pc; " src="assets/imgs/experiments.jpg " width="180 " data-aos="fade-down-right" data-aos-duration="4000">
+                            <img class="ml-3 " style="position: absolute; border-radius: 1pc; top:13pc " src="assets/imgs/lab2.jpg " width="180 " data-aos="fade-down-right" data-aos-duration="2000">
+                        </div>
+                        <div style="position: absolute; top:1pc; " class="col d-flex justify-content-end mt-5 imgss " width=" ">
+                            <img class=" " style="border-radius: 2.5pc; " src="assets/imgs/Labs.png " data-aos="fade-down-right" data-aos-duration="2000"> </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 mt-5 mt-lg-0 mx-0 " data-aos="fade-left" data-aos-duration="3000">
+                    <h1 class="hero__title mb-3 ">
+                        We are leaders in our field</h1>
+                    <p class="hero__paragraph mb-5 text-secondary ">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                    </p>
+                    <div class="hero__btns-container ">
+                        <a class="hero__btn btn btn-primary mb-2 mb-lg-0 " href="# ">
+                            Get Free App
+                        </a>
+                        <a style="color:rgb(5, 202, 5) ; " class="hero__btn btn btn-light mx-lg-3 " href="# ">
+                            Go Premium
+                        </a>
+                    </div>
+                    <div class="row mt-2 ">
+                        <img style="border-radius: 1pc; " class="ml-1 " src="assets/imgs/lab1.jpg " width="100 " data-aos="fade-left" data-aos-duration="4000">
+                        <img style="border-radius: 1pc; " class="ml-1 " src="assets/imgs/lab2.jpg " width="100 " data-aos="fade-left" data-aos-duration="3000">
+                        <img style="border-radius: 1pc; " class="ml-1 " src="assets/imgs/lab1.jpg " width="100 " data-aos="fade-left" data-aos-duration="2000">
+                        <img style="border-radius: 1pc; " class="ml-1 " src="assets/imgs/lab2.jpg " width="100 " data-aos="fade-left " data-aos-duration="1000">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===================================== -->
+
+    <div id="features" class=" hero__content container mx-auto">
+        <div class="row px-0 mx-0 align-items-center ">
+            <div class="col-lg-7 px-0 " data-aos="fade-right" data-aos-duration="3000">
+                <h1 class="hero__title mb-3 ">
+                    Get to know is better</h1>
+                <p class="hero__paragraph mb-5 text-secondary ">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                </p>
+                <div class="hero__btns-container ">
+                    <a class="hero__btn btn btn-primary mb-2 mb-lg-0 " href="# ">
+                        Show more </a>
+                </div>
+            </div>
+            <div class="col-lg-5 mt-5 mt-lg-0 mx-0 ">
+                <div class="hero__img-container ">
+                    <img style=" " class=" " src="assets/imgs/lab1.jpg " class="hero__img " width="550 " data-aos="fade-left" data-aos-duration="3000">
+                </div>
+                <div style="position: absolute; border: 1px solid grey; border-radius: 0.3pc; bottom:0.1pc; width:4pc " class="bg-light p-3 " data-aos="fade-left " data-aos-duration="3000 ">
+                    <i style=" position: relative;left:0.5pc " class="fas fa-chart-pie ">
+                    </i>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- =================Flexslide==================== -->
+    <section id="testimonials ">
+        <h1 class="text-center hero__title line_befores" data-aos="fade-down" data-aos-duration="1000">Choose from our cateogries</h1><br><br><br><br>
+        <div class="container">
+            <div id="carouselExampleControls" class="carousel slide" data-intervall="false">
+                <div class="carousel-inner" data-aos="fade-down" data-aos-duration="1000">
+                    <div class="carousel-item active ">
+                        <div class="row ">
+                            <div class="col-md-3 ">
+
+                                <div class="col-md-7 ">
+                                    <div class=" mb-2-1rem ">
+                                        <div class="card-1 card-1--selected text-center ">
+                                            <span class="card-1__symbol mx-auto mb-4 ">
+                                                <i class="fas fa-camera-retro "></i>
+                                            </span>
+                                            <h3 class="card-1__title mr-2 ">Cateogry</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="col-md-3 ">
+
+                                <div class="col-md-7 ">
+                                    <div class=" mb-2-1rem ">
+                                        <div class="card-1 card-1--selected text-center ">
+                                            <span class="card-1__symbol mx-auto mb-4 ">
+                                                <i class="fas fa-camera-retro "></i>
+                                            </span>
+                                            <h3 class="card-1__title mr-2 ">Cateogry</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="col-md-3 ">
+
+
+                                <div class="col-md-7 ">
+                                    <div class=" mb-2-1rem ">
+                                        <div class="card-1 card-1--selected text-center ">
+                                            <span class="card-1__symbol mx-auto mb-4 ">
+                                                <i class="fas fa-camera-retro "></i>
+                                            </span>
+                                            <h3 class="card-1__title mr-2 ">Cateogry</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="col-md-3 ">
+
+
+                                <div class="col-md-7 ">
+                                    <div class=" mb-2-1rem ">
+                                        <div class="card-1 card-1--selected text-center ">
+                                            <span class="card-1__symbol mx-auto mb-4 ">
+                                                <i class="fas fa-camera-retro "></i>
+                                            </span>
+                                            <h3 class="card-1__title mr-2 ">Cateogry</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="row ">
+                            <div class="col-md-3 ">
+
+
+                                <div class="col-md-7 ">
+                                    <div class=" mb-2-1rem ">
+                                        <div class="card-1 card-1--selected text-center ">
+                                            <span class="card-1__symbol mx-auto mb-4 ">
+                                                <i class="fas fa-camera-retro "></i>
+                                            </span>
+                                            <h3 class="card-1__title mr-2 ">Cateogry</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="col-md-3 ">
+
+                                <div class="col-md-7 ">
+                                    <div class=" mb-2-1rem ">
+                                        <div class="card-1 card-1--selected text-center ">
+                                            <span class="card-1__symbol mx-auto mb-4 ">
+                                                <i class="fas fa-camera-retro "></i>
+                                            </span>
+                                            <h3 class="card-1__title mr-2 ">Cateogry</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-3 ">
+
+                                <div class="col-md-7 ">
+                                    <div class=" mb-2-1rem ">
+                                        <div class="card-1 card-1--selected text-center ">
+                                            <span class="card-1__symbol mx-auto mb-4 ">
+                                                <i class="fas fa-camera-retro "></i>
+                                            </span>
+                                            <h3 class="card-1__title mr-2 ">Cateogry</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-3 ">
+
+                                <div class="col-md-7 ">
+                                    <div class=" mb-2-1rem ">
+                                        <div class="card-1 card-1--selected text-center ">
+                                            <span class="card-1__symbol mx-auto mb-4 ">
+                                                <i class="fas fa-camera-retro "></i>
+                                            </span>
+                                            <h3 class="card-1__title mr-2 ">Cateogry</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="row ">
+                            <div class="col-md-3 ">
+
+                                <div class="col-md-7 ">
+                                    <div class=" mb-2-1rem ">
+                                        <div class="card-1 card-1--selected text-center ">
+                                            <span class="card-1__symbol mx-auto mb-4 ">
+                                                <i class="fas fa-camera-retro "></i>
+                                            </span>
+                                            <h3 class="card-1__title mr-2 ">Cateogry</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-3 ">
+
+                                <div class="col-md-7 ">
+                                    <div class=" mb-2-1rem ">
+                                        <div class="card-1 card-1--selected text-center ">
+                                            <span class="card-1__symbol mx-auto mb-4 ">
+                                                <i class="fas fa-camera-retro "></i>
+                                            </span>
+                                            <h3 class="card-1__title mr-2 ">Cateogry</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-3 ">
+
+                                <div class="col-md-7 ">
+                                    <div class=" mb-2-1rem ">
+                                        <div class="card-1 card-1--selected text-center ">
+                                            <span class="card-1__symbol mx-auto mb-4 ">
+                                                <i class="fas fa-camera-retro "></i>
+                                            </span>
+                                            <h3 class="card-1__title mr-2 ">Cateogry</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-3 ">
+
+                                <div class="col-md-7 ">
+                                    <div class=" mb-2-1rem ">
+                                        <div class="card-1 card-1--selected text-center ">
+                                            <span class="card-1__symbol mx-auto mb-4 ">
+                                                <i class="fas fa-camera-retro "></i>
+                                            </span>
+                                            <h3 class="card-1__title mr-2 ">Cateogry</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span style="background-color: grey; border-radius: 1pc; " class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span style="background-color: grey; border-radius: 1pc; " class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+
+        </div>
+    </section><br><br>
+    <!-- =================\Flexslide==================== -->
+
+
+    <!-- =================================== -->
+    <!--------------------  Hero --------------------------->
+    <section id="hero" class="col d-flex justify-content-end align-items-center">
+        <img class="img-fluid " style="border-top-left-radius: 5pc; border-bottom-left-radius: 5pc;" src="assets/imgs/lab2.jpg " width="800 " data-aos="fade-left" data-aos-duration="1000">
+
+        <div style="position: absolute;" id="carouselExampleControls1" class="carousel slide container" data-intervall="false" data-aos="fade-right" data-aos-duration="1000">
+            <div class="carousel-inner ">
+                <div class="carousel-item active ">
+                    <div class="row ">
+                        <div class="col-md-4 ">
+
+                            <div class="card_abs ">
+                                <div class="p-3 ">
+                                    <img class=" card_img2 " src="assets/imgs/lab2.jpg " alt="Card image cap ">
+                                    <div class="card-body ">
+                                        <h1 style="color:rgb(11, 11, 129);font-size: 1.5em; font-weight: 600; ">New Title</h1>
+                                        <p class="card-text "> lipsum as it is sometimes known, is dummy text used in laying out print, graphic </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="col-md-4 ">
+
+                            <div class="card_abs ">
+                                <div class="p-3 ">
+                                    <img class=" card_img2 " src="assets/imgs/lab2.jpg " alt="Card image cap ">
+                                    <div class="card-body ">
+                                        <h1 style="color:rgb(11, 11, 129);font-size: 1.5em; font-weight: 600; ">New Title</h1>
+                                        <p class="card-text "> lipsum as it is sometimes known, is dummy text used in laying out print, graphic </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="col-md-4 ">
+
+                            <div class="card_abs ">
+                                <div class="p-3 ">
+                                    <img class=" card_img2 " src="assets/imgs/lab2.jpg " alt="Card image cap ">
+                                    <div class="card-body ">
+                                        <h1 style="color:rgb(11, 11, 129);font-size: 1.5em; font-weight: 600; ">New Title</h1>
+                                        <p class="card-text "> lipsum as it is sometimes known, is dummy text used in laying out print, graphic </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item ">
+                    <div class="row ">
+                        <div class="col-md-4 ">
+
+                            <div class="card_abs ">
+                                <div class="p-3 ">
+                                    <img class=" card_img2 " src="assets/imgs/lab2.jpg " alt="Card image cap ">
+                                    <div class="card-body ">
+                                        <h1 style="color:rgb(11, 11, 129);font-size: 1.5em; font-weight: 600; ">New Title</h1>
+                                        <p class="card-text "> lipsum as it is sometimes known, is dummy text used in laying out print, graphic </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="col-md-4 ">
+
+                            <div class="card_abs ">
+                                <div class="p-3 ">
+                                    <img class=" card_img2 " src="assets/imgs/lab2.jpg " alt="Card image cap ">
+                                    <div class="card-body ">
+                                        <h1 style="color:rgb(11, 11, 129);font-size: 1.5em; font-weight: 600; ">New Title</h1>
+                                        <p class="card-text "> lipsum as it is sometimes known, is dummy text used in laying out print, graphic </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="col-md-4 ">
+
+                            <div class="card_abs ">
+                                <div class="p-3 ">
+                                    <img class=" card_img2 " src="assets/imgs/lab2.jpg " alt="Card image cap ">
+                                    <div class="card-body ">
+                                        <h1 style="color:rgb(11, 11, 129);font-size: 1.5em; font-weight: 600; ">New Title</h1>
+                                        <p class="card-text "> lipsum as it is sometimes known, is dummy text used in laying out print, graphic </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class="row ">
+                        <div class="col-md-4 ">
+
+                            <div class="card_abs ">
+                                <div class="p-3 ">
+                                    <img class=" card_img2 " src="assets/imgs/lab2.jpg " alt="Card image cap ">
+                                    <div class="card-body ">
+                                        <h1 style="color:rgb(11, 11, 129);font-size: 1.5em; font-weight: 600; ">New Title</h1>
+                                        <p class="card-text "> lipsum as it is sometimes known, is dummy text used in laying out print, graphic </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="col-md-4 ">
+
+                            <div class="card_abs ">
+                                <div class="p-3 ">
+                                    <img class=" card_img2 " src="assets/imgs/lab2.jpg " alt="Card image cap ">
+                                    <div class="card-body ">
+                                        <h1 style="color:rgb(11, 11, 129);font-size: 1.5em; font-weight: 600; ">New Title</h1>
+                                        <p class="card-text "> lipsum as it is sometimes known, is dummy text used in laying out print, graphic </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="col-md-4 ">
+
+                            <div class="card_abs ">
+                                <div class="p-3 ">
+                                    <img class=" card_img2 " src="assets/imgs/lab2.jpg " alt="Card image cap ">
+                                    <div class="card-body ">
+                                        <h1 style="color:rgb(11, 11, 129);font-size: 1.5em; font-weight: 600; ">New Title</h1>
+                                        <p class="card-text "> lipsum as it is sometimes known, is dummy text used in laying out print, graphic </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">
+                <span style="background-color: grey; " class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls1" role="button" data-slide="next">
+                <span style="background-color: grey; " class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+
+        </div>
+
+    </section><br><br><br>
+    <!-------------------- End Hero --------------------------->
+
+
+
+
+
+    <!-- =================================== -->
+
+
+    <!-- =================================== -->
+    <section id="faq">
+        <div class="block-32 space-between-blocks">
+            <p class="text-center line_befores hero__title" data-aos="fade-down" data-aos-duration="1000">Meet Our amazing parteners</p><br><br><br>
+
+            <div id="carouselExampleControls2" class="carousel slide container" data-intervall="false" data-aos="fade-right">
+                <div class="carousel-inner">
+                    <div class="carousel-item active ">
+                        <div class="row ">
+                            <div class="col-md-3 portfolio ">
+                                <div class="card portfolio-wrap ">
+                                    <img class="card-img-top rounded" src="assets/imgs/lab1.jpg " alt="Card image cap ">
+                                </div>
+                            </div>
+                            <div class="col-md-3 portfolio ">
+                                <div class="card portfolio-wrap ">
+                                    <img class="card-img-top rounded " src="assets/imgs/lab2.jpg " alt="Card image cap ">
+                                </div>
+                            </div>
+                            <div class="col-md-3 portfolio ">
+                                <div class="card portfolio-wrap ">
+                                    <img class="card-img-top rounded " src="assets/imgs/lab1.jpg " alt="Card image cap ">
+                                </div>
+                            </div>
+                            <div class="col-md-3 portfolio ">
+                                <div class="card portfolio-wrap ">
+                                    <img class="card-img-top rounded " src="assets/imgs/lab2.jpg " alt="Card image cap ">
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="row ">
+                            <div class="col-md-3 portfolio ">
+                                <div class="card portfolio-wrap ">
+                                    <img class="card-img-top rounded " src="assets/imgs/lab1.jpg " alt="Card image cap ">
+                                </div>
+                            </div>
+                            <div class="col-md-3 portfolio ">
+                                <div class="card portfolio-wrap ">
+                                    <img class="card-img-top rounded " src="assets/imgs/lab2.jpg " alt="Card image cap ">
+                                </div>
+                            </div>
+                            <div class="col-md-3 portfolio ">
+                                <div class="card portfolio-wrap ">
+                                    <img class="card-img-top rounded " src="assets/imgs/lab1.jpg " alt="Card image cap ">
+                                </div>
+                            </div>
+                            <div class="col-md-3 portfolio ">
+                                <div class="card portfolio-wrap ">
+                                    <img class="card-img-top rounded " src="assets/imgs/lab2.jpg " alt="Card image cap ">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="row ">
+                            <div class="col-md-3 portfolio ">
+                                <div class="card portfolio-wrap ">
+                                    <img class="card-img-top rounded " src="assets/imgs/lab1.jpg " alt="Card image cap ">
+                                </div>
+                            </div>
+                            <div class="col-md-3 portfolio ">
+                                <div class="card portfolio-wrap ">
+                                    <img class="card-img-top rounded " src="assets/imgs/lab2.jpg " alt="Card image cap ">
+                                </div>
+                            </div>
+                            <div class="col-md-3 portfolio ">
+                                <div class="card portfolio-wrap ">
+                                    <img class="card-img-top rounded " src="assets/imgs/lab1.jpg " alt="Card image cap ">
+                                </div>
+                            </div>
+                            <div class="col-md-3 portfolio ">
+                                <div class="card portfolio-wrap ">
+                                    <img class="card-img-top rounded " src="assets/imgs/lab2.jpg " alt="Card image cap ">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+                    <span style="background-color:grey " class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+                    <span style="background-color:grey " class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- =================================== -->
+
+    <footer id="footer">
+
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-7 footer-contact" data-aos="fade-right" data-aos-duration="4000">
+                        <div class=" row col text-center ">
+                            <i style="color:white " class="fas fa-atom text-light text-center">
+                                <p style="color:white ">Chemistry</p>
+                            </i>
+                        </div><br>
+                        <p class="text-light ">
+                            lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts </p><br>
+                        <ul class="block-44__extra-links d-flex list-unstyled p-0 ">
+                            <li style="background-color: rgb(14, 197, 14); border-radius: 0.2pc;height:2pc; " class="mx-2 p-2 ">
+                                <a href="# " class="block-44__link m-0 ">
+                                    <i style="color: white; " class="fab fa-facebook "></i>
+                                </a>
+                            </li>
+                            <li style="background-color: rgb(14, 197, 14); border-radius: 0.2pc;height:2pc; " class="mx-2 p-2 ">
+                                <a href="# " class="block-44__link m-0 ">
+                                    <i style="color: white; " class="fab fa-linkedin "></i>
+                                </a>
+                            </li>
+
+                            <li style="background-color: rgb(14, 197, 14); border-radius: 0.2pc;height:2pc; " class="mx-2 p-2 ">
+                                <a href="# " class="block-44__link m-0 ">
+                                    <i style="color: white; " class="fab fa-twitter "></i>
+                                </a>
+                            </li>
+                            <li style="background-color: rgb(14, 197, 14); border-radius: 0.2pc;height:2pc; " class="mx-2 p-2 ">
+                                <a href="# " class="block-44__link m-0 ">
+                                    <i style="color: white; " class="fab fa-instagram "></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <i style="width: 45pc; " class="fas fa-circle "></i>
+
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-links " data-aos="fade-right" data-aos-duration="3000">
+                        <h4 class="text-light ">pages </h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right "></i> <a class="text-light " href="# ">pages</a></li>
+                            <li><i class="bx bx-chevron-right "></i> <a class="text-light " href="# ">pages </a></li>
+                            <li><i class="bx bx-chevron-right "></i> <a class="text-light " href="# ">pages</a></li>
+                            <li><i class="bx bx-chevron-right "></i> <a class="text-light " href="# ">pages </a></li>
+                            <li><i class="bx bx-chevron-right "></i> <a class="text-light " href="# ">pages </a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links " data-aos="fade-right" data-aos-duration="2000">
+                        <h4 class="text-light ">Information </h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right "></i>
+                                <a class="text-light " href="# ">Contact Us </a>
+                            </li>
+                            <li><i class="bx bx-chevron-right "></i> <a class="text-light " href="# ">Support </a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 footer-newsletter" data-aos="fade-left" data-aos-duration="1000">
+                        <iframe style="border-radius: 2pc; " src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13644.979465827144!2d29.985615150000005!3d31.24164405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2seg!4v1613049317870!5m2!1sen!2seg
+        " width="400 " height="250 " frameborder="0 " style="border:0; " allowfullscreen=" " aria-hidden="false " tabindex="0 "></iframe> </div>
+
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- =================================== -->
+
+    <script src="assets/js/app.js"></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js " integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js " integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 " crossorigin="anonymous "></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js "></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
